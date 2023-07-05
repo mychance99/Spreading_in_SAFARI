@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/trans4d",
+            "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin",
@@ -17,7 +17,7 @@
             "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe"
-        },
+        }
         // {
         //     "name": "Intel Debug Attach",
         //     "type": "cppdbg",
